@@ -1,0 +1,7 @@
+{
+  "autoimport.filesToScan": "**/*.{js,jsx}",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  }
+}

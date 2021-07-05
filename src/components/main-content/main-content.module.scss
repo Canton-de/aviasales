@@ -1,0 +1,19 @@
+.flex-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-column {
+  width: 66%;
+  margin-left: 20px;
+}
+@media (max-width: 520px) {
+  .flex-wrapper {
+    flex-direction: column;
+  }
+  .flex-column {
+    width: 100%;
+    margin-left: 0;
+    align-self: center;
+  }
+}

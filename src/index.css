@@ -1,0 +1,25 @@
+.app {
+  width: 75%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+body {
+  background: #f3f7fa;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+@media (max-width: 620px) {
+  .app {
+    width: 90%;
+  }
+}

@@ -1,0 +1,28 @@
+.flex-wrapper {
+  display: flex;
+}
+.button {
+  width: 50%;
+  display: block;
+  height: 50px;
+  color: #000;
+  background: #fff;
+  border: none;
+  border: 1px solid #dfe5ec;
+  border-radius: 5px 0 0 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 12px;
+
+  cursor: pointer;
+}
+.button:focus {
+}
+.active {
+  background: #2196f3;
+  border: none;
+  color: #fff;
+}
+.button:nth-child(2) {
+  border-radius: 0 5px 5px 0;
+}
