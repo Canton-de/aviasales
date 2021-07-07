@@ -18,6 +18,7 @@ class AviaApi {
     const data = await axios.get(`https://front-test.beta.aviasales.ru/tickets?searchId=${this.searchId}`);
     return data.data;
   }
+  
 }
 
 export default AviaApi;
