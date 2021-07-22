@@ -1,1 +1,1 @@
-# https://vercel.com/churshukovanton-gmailcom/aviasales
+# https://aviasales-tau.vercel.app/
